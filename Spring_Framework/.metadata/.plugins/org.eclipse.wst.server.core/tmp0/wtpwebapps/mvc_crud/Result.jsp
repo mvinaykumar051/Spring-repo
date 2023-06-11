@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1" isELIgnored="false"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Result</title>
+
+</head>
+<body>
+<h1 style="color:green">${success}</h1>
+	<table border="1">
+		<tr>
+			<th>id</th>
+			<th>name</th>
+			<th>email</th>
+			<th>mobile</th>
+			<th>dob</th>
+			<th>age</th>
+			<th>password</th>
+			<th>gender</th>
+			<th>delete</th>
+			<th>edit</th>
+		</tr>
+
+		<c:forEach var="s" items="${list}">
+
+			<tr>
+				<th>${s.getId()}</th>
+				<th>${s.getName()}</th>
+				<th>${s.getEmail()}</th>
+				<th>${s.getMobile()}</th>
+				<th>${s.getDob()}</th>
+				<th>${s.getAge()}</th>
+				<th>${s.getPassword()}</th>
+				<th>${s.getGender()}</th>
+				<th><a href="delete?id=${s.getId()}"><button>Delete</button></a></th>
+				<th><a href="edit?id=${s.getId()}"><button>Edit</button></a></th>
+			</tr>
+		</c:forEach>
+	</table>
+</body>
+</html>

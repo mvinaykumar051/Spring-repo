@@ -1,0 +1,5 @@
+package mvc.helper;
+
+public class MyConfiguration1 {
+
+}

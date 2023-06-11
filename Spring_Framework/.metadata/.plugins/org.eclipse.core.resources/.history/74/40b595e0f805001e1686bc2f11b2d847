@@ -1,0 +1,25 @@
+package mvc.dto;
+
+import java.sql.Date;
+
+import javax.persistence.Entity;
+
+import org.springframework.stereotype.Controller;
+
+import lombok.Data;
+
+@Entity
+@Data
+@Controller
+public class Student {
+@Id
+@GeneratedValue(strategy=GenerationType.IDENTITY)
+int id;
+String Name;
+String mail;
+long Mobile;
+String password;
+String gender;
+Date DOB;
+int age;
+}

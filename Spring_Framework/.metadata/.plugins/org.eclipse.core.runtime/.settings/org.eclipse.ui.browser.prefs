@@ -1,0 +1,4 @@
+browser-choice=1
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="2">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n<external location\="C\:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" name\="Chrome"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/mvc_demo2/add?num1\=2&num2\=2|*|http\://localhost\:8080/mvc_demo2/Calculator.jsp|*|http\://localhost\:8080/mvc_demo2/add?num1\=1&num\=2|*|http\://localhost\:8080/mvc_demo2/add?num1\=2&num2\=3|*|http\://localhost\:8080/mvc_demo2/add?num1\=12&num2\=3|*|http\://www.eclipse.org/|*|http\://www.eclipse.org|*|http\://localhost\:8080/mvc_demo2/add?num1\=1&num2\=2|*|http\://localhost\:8080/mvc_demo2/|*|http\://localhost\:8080/mvc_demo2/add?num1\=122&num2\=2|*|http\://localhost\:8080/mvc_demo2/WEB-INF/classes/mvc_calculator/Calculator.java|*|
